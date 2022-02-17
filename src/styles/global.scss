@@ -5,7 +5,14 @@
 }
 
 body {
-  font: 16px "Helvetica Neue", Arial, sans-serif;
+  font: 16px 'Helvetica Neue', Arial, sans-serif;
   color: #121214;
+}
 
+.picaDura {
+  height: 6rem;
+}
+
+.picaDura + .picaDura {
+  height: 6rem;
 }
