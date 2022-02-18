@@ -1,10 +1,10 @@
 import { useState } from 'react'
 
 export function Contador() {
-  const [contador, setContador] = useState(1)
+  const [contador, setContador] = useState(999)
 
   function batata() {
-    setContador(contador + 1)
+    setContador(contador + 50444)
   }
 
   return (
